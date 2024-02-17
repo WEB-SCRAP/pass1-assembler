@@ -1,0 +1,14 @@
+**	START	2000
+**	LDA	FIVE
+**	STA	ALPHA
+** 	ORG	2050
+**	LDCH 	CHARZ
+** 	STCH 	C1
+**	ORG	3000
+A 	EQU     2000  
+FIVE 	WORD 	5
+**	ORG	8000
+B 	EQU     90   
+C1 	RESB 	1
+**	END	**
+ 
